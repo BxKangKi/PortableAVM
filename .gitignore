@@ -1,0 +1,33 @@
+# Build output
+/build-*/
+/build/
+/dist-*/
+/dist/
+/out/
+
+# Downloaded source dependencies
+/.deps/
+/.syntax-deps/
+
+# CMake/IDE
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+.vs/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime/user data (the empty template under resources is tracked)
+/Data/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
